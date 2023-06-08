@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stacey & Glenn's Wedding</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="top_header">
+
+        <h1 class="heading_name">
+            <img class="titlePhoto" src="/Images/newMushroom.PNG">
+            <hr> Stacey & Glenn<br>
+            <p class="date">10.21.2023</p>
+            
+        </h1>
+    </header>
+
+    <header class="header">
+        <!-- <h1 class="header_text">Stacey & Glenn</h1>
+        <span class="header_text"> are getting married!</span> -->
+    </header>
+
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a>
+    <section class="section">
+        <h2 class="sub-heading">Overview</h2>
+        <p>Please come help us celebrate our love!
+        </p>
+    </section>
+    <section class="section">
+        <h2 class="sub-heading">The Details</h2>
+        <div class="details">
+            <i class="fas fa-calendar-check"></i>
+            <h3 class="details-heading">When</h3>
+            <p>October 21, 2023</p>
+            <!-- <a title="Add to Calendar" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NDFubjFxc2R2YzNzbjdkZWdhNW10cWc5azggc3RhY2V5LmxpdHRyZWxsQG0&amp;tmsrc=stacey.littrell%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a> -->
+            <a  rel="noopener" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDFubjFxc2R2YzNzbjdkZWdhNW10cWc5azggc3RhY2V5LmxpdHRyZWxsQG0&tmsrc=stacey.littrell%40gmail.com" target="_blank" rel="nofollow">Add to Calendar</a>
+        </div>
+        <div class="details">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3 class="details-heading">Location</h3>
+            <p><a rel="noopener" href="https://goo.gl/maps/nyL58biBjjwSPvb37">The Farm</a>, Summertown, TN</p>
+            <!-- <img class="resort-image" src="/Images/logo.png" alt="Resort" /> -->
+        </div>
+        <div class="details">
+            <i class="fas fa-suitcase"></i>
+            <h3 class="details-heading">Lodging</h3>
+            <p>Air BnB, Best Western, so on!</p>
+        </div>
+        <!-- <div class="details">
+            <i class="fas fa-plane-departure"></i>
+            <h3 class="details-heading">Flights</h3>
+            <p></p>
+            <p>Magic sparkles father bridesmaid champagne bouquet wedding mother. Magic first dancing fish chicken
+                champagne debt mother guitar acoustic bass.</p>
+        </div> -->
+        <div class="details">
+            <i class="fas fa-asterisk"></i>
+            <h3 class="details-heading">Other Notes</h3>
+            <p>We are so excited to share this day with you!</p>
+            <p>Also, your presence is the only present we desire. No gift required.</p>
+        </div>
+        <div class="details">
+            <i class="fas fa-reply"></i>
+            <h3 class="details-heading" id="rsvp">RSVP</h3>
+            <p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGhRJfSMzzIDH6KRGSuHVouyTBOc_H85Isr02S0wiX-bO81w/viewform?embedded=true" width="640" height="1213" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+            <!-- Include Embedded link of Google Form here in place of # -->
+            <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+        </div>
+    </section>
+    <script src="./scripts/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+        var scroll = new SmoothScroll('a[href*="#"]');
+        var rsvpButton = document.getElementById('rsvpButton')
+        rsvpButton.addEventListener('click', hideButton, false);
+
+        function hideButton() {
+            rsvpButton.style.display = 'none';
+        }   
+    </script>
+</body>
+
+</html>
