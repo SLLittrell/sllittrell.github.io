@@ -29,6 +29,10 @@ hr{
 	margin-left: auto;
 	margin-right: auto;
 }
+.venmo{
+  width: 25%;
+  border: 3px solid #000;
+}
 .top_header{
 	background-color: #12351bee;
 	/* background-image: url(/Images/newMushroom.PNG);
