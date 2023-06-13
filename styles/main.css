@@ -41,7 +41,7 @@ hr{
 	background-size: 25%; */
 }
 .header{
-    background-image: url(./Images/20190331_190539.jpg);
+    background-image: url(../Images/20190331_190539.jpg);
     background-repeat: no-repeat;
     /* background-position: 50% 60%; */
     background-attachment: scroll;
